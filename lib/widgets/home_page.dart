@@ -23,6 +23,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepOrangeAccent,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -34,7 +35,10 @@ class MyHomePage extends StatelessWidget {
           ],
         ),
       ),
-      body: Center(child: Text('My Page!')),
+      body: Center(
+          child: Image.asset(
+        'images/JoinUs.png',
+      )),
       drawer: Container(
         width: 200,
 
