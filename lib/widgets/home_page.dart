@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'images/IEEEUTRGV.png',
+              'assets/images/IEEEUTRGV.png',
               fit: BoxFit.contain,
               height: 55,
             ),
@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
           child: Image.asset(
-        'images/JoinUs.png',
+        'assets/images/JoinUs.png',
       )),
       drawer: Container(
         width: 200,
@@ -95,7 +95,6 @@ class MyHomePage extends StatelessWidget {
                   color: Colors.grey,
                 ),
                 onTap: () {
-                  child:
                   ListTile(
                     title: Padding(
                       padding: const EdgeInsets.all(8.0),
